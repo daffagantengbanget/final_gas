@@ -13,7 +13,7 @@ class test extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
     home: Scaffold(
-
+      backgroundColor: Colors.red,
     ),
     );
   }
