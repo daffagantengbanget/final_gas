@@ -11,7 +11,10 @@ class test extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-    home: Scaffold(),
+      debugShowCheckedModeBanner: false,
+    home: Scaffold(
+
+    ),
     );
   }
 }
